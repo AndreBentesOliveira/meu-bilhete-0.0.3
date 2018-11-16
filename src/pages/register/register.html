@@ -1,0 +1,88 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Registrar</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list no-line>
+
+    <ion-item>
+
+      <ion-input type="text" placeholder="Nome Completo" name="fullname" #nomecompleto></ion-input>
+
+    </ion-item>
+
+      <ion-item>
+
+      <ion-input type="number" placeholder="CPF" name="cpf" #cpf></ion-input>
+
+    </ion-item>
+
+      <ion-item>
+
+      <ion-input type="date" placeholder="Data-Nascimento" name="datanascimento" #datanascimento></ion-input>
+
+    </ion-item>
+
+    <ion-item>
+
+      <ion-input type="email" placeholder="E-mail" name="emaildd" #email></ion-input>
+
+    </ion-item>
+
+    <ion-item>
+
+      <ion-input type="password" placeholder="Senha" name="password" #password></ion-input>
+
+    </ion-item>
+
+    <ion-item>
+
+      <ion-input type="text" placeholder="Rua" name="logadouro" #logadouro></ion-input>
+
+    </ion-item>
+
+  </ion-list>
+
+  <ion-item>
+
+    <ion-input type="number" placeholder="Numero" name="numero" #numero></ion-input>
+
+  </ion-item>
+
+  <ion-item>
+
+    <ion-input type="text" placeholder="Bairro" name="bairro" #bairro></ion-input>
+
+  </ion-item>
+
+  <ion-item>
+
+    <ion-input type="number" placeholder="Cep" name="cep" #cep></ion-input>
+
+  </ion-item>
+
+  <ion-item>
+
+    <ion-input type="number" placeholder="Celular" name="mobile" #mobile></ion-input>
+
+  </ion-item>
+
+  <ion-item>
+
+    <ion-input type="number" placeholder="Numero do seu cartão" name="codcartao" #codcartao></ion-input>
+
+  </ion-item>
+
+  <div padding>
+
+  <button ion-button  round outline block (click)="Register()">Registrar</button>
+
+  </div>
+</ion-content>
+  

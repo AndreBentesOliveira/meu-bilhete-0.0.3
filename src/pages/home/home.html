@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-navbar >
+    
+    <ion-title cente>
+      Login
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page4">
+  <form id="login-form2" action="/register/">
+    <ion-card id="login-card21">
+      <ion-list>
+        <div style="width:100%;height:220px;margin:0px 0px;line-height:250px;background-color:#e8ebef;text-align:center;">
+          <i class="icon ion-image" style="font-size:64px;color:#888;vertical-align:middle;"></i>
+          <ion-img width="100%" height="220px" src="http://localhost/MYTICKET6/resources/onibus.jpg"></ion-img>
+        </div>
+       
+ 
+
+      </ion-list>
+    </ion-card>
+    <ion-list id="login-list2">
+      <ion-item id="login-input1">
+        <ion-label>
+          Email
+        </ion-label>
+        <ion-input  round type="text"  name="email" #login></ion-input>
+      </ion-item>
+      <ion-item id="login-input2">
+        <ion-label>
+          Password
+        </ion-label>
+        <ion-input type="password"  name="password" #password></ion-input>
+      </ion-item>
+    </ion-list>
+    <div class="spacer" style="width:300px;height:33px;" id="login-spacer3"></div>
+    <button ion-button round block (click)='signIn()'>Entrar</button>
+    
+    <button ion-button round outline block (click)='signUp()'>Registrar</button>
+  </form>
+</ion-content>

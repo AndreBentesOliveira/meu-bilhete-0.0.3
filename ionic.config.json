@@ -1,0 +1,13 @@
+{
+  "name": "Meu bilhete",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+"proxies": [
+  {
+    "path": "/register",
+    "proxyUrl": "http://localhost/register.php"
+  }
+]
+}
